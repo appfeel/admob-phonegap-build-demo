@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.appfeel.admob.test" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>AdMobTest</name>
+  <description>
+    A sample Phonegap Build application with Admob ads integrated.
+  </description>
+  <author email="info@appfeel.com" href="https://github.com/appfeel/admob-google-cordova">AppFeel</author>
+  <content src="index.html" />
+  <access origin="*" />
+  <preference name="LogLevel" value="VERBOSE"/>
+  <preference name="debuggable" value="true"/>
+  
+  <gap:plugin name="com.admob.google" version="2.0.2" source="plugins.cordova.io" />
+  
+  <icon src="res/appFeel-512.png" />
+  
+  <platform name="android">
+    <icon src="res/android/ic_launcher_ldpi.png" density="ldpi" />
+    <icon src="res/android/ic_launcher_mdpi.png" density="mdpi" />
+    <icon src="res/android/ic_launcher_hdpi.png" density="hdpi" />
+    <icon src="res/android/ic_launcher_xhdpi.png" density="xhdpi" />
+    <icon src="res/android/ic_launcher_xxhdpi.png" density="xxhdpi" />
+    <icon src="res/android/ic_launcher_xxxhdpi.png" density="xxxhdpi" />
+  </platform>
+  
+  <platform name="ios">
+    <!-- iOS 7.0+ -->
+    <!-- iPhone / iPod Touch  -->
+    <icon src="res/ios/Icon-60.png" width="60" height="60" />
+    <icon src="res/ios/Icon-60@2x.png" width="120" height="120" />
+    <!-- iPad -->
+    <icon src="res/ios/Icon-76.png" width="76" height="76" />
+    <icon src="res/ios/Icon-76@2x.png" width="152" height="152" />
+    <!-- iOS 6.1 -->
+    <!-- Spotlight Icon -->
+    <icon src="res/ios/Icon-40.png" width="40" height="40" />
+    <icon src="res/ios/Icon-40@2x.png" width="80" height="80" />
+    
+    <!-- iPhone / iPod Touch -->
+    <icon src="res/ios/Icon.png" width="57" height="57" />
+    <icon src="res/ios/Icon@2x.png" width="114" height="114" />
+    <!-- iPad -->
+    <icon src="res/ios/Icon-72.png" width="72" height="72" />
+    <icon src="res/ios/Icon-72@2x.png" width="144" height="144" />
+    <!-- iPhone Spotlight and Settings Icon -->
+    <icon src="res/ios/Icon-Small.png" width="29" height="29" />
+    <icon src="res/ios/Icon-Small@2x.png" width="58" height="58" />
+    <!-- iPad Spotlight and Settings Icon -->
+    <icon src="res/ios/Icon-Small-50.png" width="50" height="50" />
+    <icon src="res/ios/Icon-Small-50@2x.png" width="100" height="100" />
+  </platform>
+</widget>
