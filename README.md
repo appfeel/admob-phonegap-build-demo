@@ -9,4 +9,4 @@
 
 You can also [click here](http://goo.gl/8gAxlO) or scan this QR from your device to install it (only Android):
 
-![ScreenShot](demo/qr-cool.png)
+[![ScreenShot](demo/qr-cool.png)](http://goo.gl/8gAxlO)
