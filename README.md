@@ -4,6 +4,9 @@
 - Go to [Apps](https://build.phonegap.com/apps) and click on `+ new app`
 - Paste the following url into `find existing repo / paste .git repo`: `https://github.com/appfeel/admob-phonegap-build-demo.git`
 - Click on `Pull from .git repository`
-- Wait few seconds and refresh the page
 - Click on `Ready to build` button
-- It will fail for ios and windows, as keys are required, but will success for Android
+- It will fail for ios (as keys are required) but will success for Android
+
+You can also [click here](http://goo.gl/8gAxlO) or scan this QR from your device to install it (only Android):
+
+![ScreenShot](demo/qr-cool.png)
