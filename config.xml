@@ -10,7 +10,7 @@
   <preference name="LogLevel" value="VERBOSE"/>
   <preference name="debuggable" value="true"/>
   
-  <gap:plugin name="com.admob.google" version="2.0.2" source="plugins.cordova.io" />
+  <gap:plugin name="com.admob.google" source="plugins.cordova.io" />
   
   <icon src="res/appFeel-512.png" />
   
