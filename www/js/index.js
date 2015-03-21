@@ -131,7 +131,7 @@ var app = {
   },
   onAdFailedToLoad: function(e) {
     app.showProgress(false);
-    alert("Could not load ad: " + JSON.stringify(e));
+    alert("Could not load ad: " + e.reason);
   },
   onResize: function () {
     var msg = 'Web view size: ' + window.innerWidth + ' x ' + window.innerHeight;
