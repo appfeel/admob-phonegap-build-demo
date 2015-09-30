@@ -49,12 +49,12 @@ var app = {
     var isAndroid = (/(android)/i.test(navigator.userAgent));
     var adPublisherIds = {
       ios : {
-        banner: 'ca-app-pub-8440343014846849/7078073011',
-        interstitial: 'ca-app-pub-8440343014846849/8554806210'
+        banner: 'ca-app-pub-9863325511078756/5232547029',
+        interstitial: 'ca-app-pub-9863325511078756/6709280228'
       },
       android : {
-        banner: 'ca-app-pub-8440343014846849/6338199818',
-        interstitial: 'ca-app-pub-8440343014846849/9791193812'
+        banner: 'ca-app-pub-9863325511078756/9802347428',
+        interstitial: 'ca-app-pub-9863325511078756/2279080628'
       }
     };
 
@@ -75,6 +75,10 @@ var app = {
       autoShowBanner: true, // auto show banners ad when loaded
       autoShowInterstitial: false // auto show interstitials ad when loaded
     });
+    
+    // Adjust viewport
+    var viewportScale = 1 / window.devicePixelRatio;
+    document.getElementById("viewport").setAttribute("content", "user-scalable=no, initial-scale=" + viewportScale + ", minimum-scale=0.2, maximum-scale=2, width=device-width"); 
   },
   // Bind Event Listeners
   bindAdEvents: function () {
@@ -131,7 +135,7 @@ var app = {
   },
   onAdFailedToLoad: function(event, e) {
     app.showProgress(false);
-    alert("Could not load ad: " + JSON.stringify(e));
+    alert("Could not load ad: " + e.reason);
   },
   onResize: function () {
     var msg = 'Web view size: ' + window.innerWidth + ' x ' + window.innerHeight;

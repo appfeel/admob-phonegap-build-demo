@@ -1,4 +1,6 @@
-# Instructions for testing Phonegap Build AdMob plugin:
+This is a demo project for [Phonegap Vuild AdMob plugin](https://github.com/appfeel/admob-google-cordova).
+
+# Instructions:
 
 - Go to your [Phonegap Build](https://build.phonegap.com) platform and log-in
 - Go to [Apps](https://build.phonegap.com/apps) and click on `+ new app`
