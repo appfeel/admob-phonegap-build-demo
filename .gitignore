@@ -1,0 +1,14 @@
+# Mac
+.DS_Store
+
+certs/
+platforms/
+plugins/
+
+# Node
+npm-debug.log
+/node_modules
+
+# iOS
+*.xcuserdatad
+*.xcworkspace
