@@ -49,6 +49,7 @@
   </platform>
   
   <platform name="ios">
+    <preference name="BackupWebStorage" value="local"/>
     <!-- iOS 7.0+ -->
     <!-- iPhone / iPod Touch  -->
     <icon src="res/icons/ios/icon-60.png" width="60" height="60" />
